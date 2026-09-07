@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building static website..."
+      - echo "Build completed"
+      - echo "Listing files to be packaged:"
+      - ls -la
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
